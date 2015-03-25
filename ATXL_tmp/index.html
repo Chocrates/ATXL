@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Austin Longsword</title>
+    <style>
+        .click_box {
+
+/*            display: block;
+            position: relative;
+            top: -500px;
+            background-color: transparent;
+            border: 1px solid yellow;/*set to 1 to test the position of the clickable area*/
+           /* height: 500px;
+            width: 100%;
+            z-index:1; */
+
+            position: absolute;
+            width: 99%;
+            height: 99%;
+            top: 0;
+            left: 0;
+            text-decoration: none;
+            /* Makes sure the link doesn't get underlined */
+            z-index: 10;
+            /* raises anchor tag above everything else in div */
+            background-color: white;
+            /*workaround to make clickable in IE */
+            opacity: 0;
+            /*workaround to make clickable in IE */
+            filter: alpha(opacity=0);
+            /*workaround to make clickable in IE */
+        }
+
+    </style>
+</head>
+<body style="background-color:#d4d4d4;">
+    <div style="margin-left: auto; margin-right:auto; border: 0px solid yellow; display:block; width:400px;">
+        <img src="images/atxl_logo.svg" height="400px" />
+        <p style="text-align: center;"><h1>Coming soon.</h1></p>
+        <p style="text-align:center;"><h2>In the meantime, come say hi on Facebook!</h2></p>
+        <a class="click_box" href="https://www.facebook.com/groups/314245435441219/"></a>
+    </div>
+   </body>
+</html>
